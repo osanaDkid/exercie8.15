@@ -33,7 +33,7 @@ def selection(event):
     if i <= x[2]+15 and i >= x[2]-15 and u <= y[2]+15 and u >= y[2]-15 :
         n = 2
 def moove(event):
-    global x,y
+    global x,y,n
     selection(event)            #Fonction qui permet la selection des sphères
     gd = event.x
     hb = event.y
